@@ -10,7 +10,7 @@
 </head>
 <body>  
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-navbar">
     <div class="container">
       <a class="navbar-brand" href="#">
           <img src="img/logo.svg" alt="Logo" width="185px">
@@ -19,11 +19,11 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
+        <div class="navbar-nav ms-auto text-center">
+          <a class="nav-link active me-5" aria-current="page" href="index.html">Home</a>
           <a class="nav-link me-5" href="#">Produk</a>
           <a class="nav-link me-5" href="#">Tentang</a>
-          <a class="btn rounded-pill me-5 button-nav shadow-sm" href="login-page/login.html">Login</a>
+          <a class="btn rounded-pill me-5 button-nav shadow-sm" href="login.html">Login</a>
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@
           </div>
           <h1 class="display-1 text-truncate bolder-text heading-head"><b>NGOBAT</b></h1>
           <div class="desc-text mt-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, alias praesentium vel repellat delectus ipsum error odit, laudantium quae fugit est veritatis rerum maxime autem quam temporibus eius inventore tempore.</p>
+            <p>Merupakan platform pembelian obat secara online, yang dapat memudahkan kita untuk membeli obat dengan hanya sentuhan jari. Ngobat dibuat dengan penuh cinta kasih untuk penugasan PWPB oleh 5 orang anak.</p>
           </div>
           <div class="button-head mt-5">
             <a href="#" class="button rounded-pill shadow bold-text">YUK BELI!</a>
@@ -64,7 +64,7 @@
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-lg-4 col-md-6 col-sm-8">
-          <p class="desc-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem modi velit culpa necessitatibus facere sed?</p>
+          <p class="desc-title">Yuk cari obatmu dari segala kategori disini, karena nyari obat disini lebih gampang daripada nyari jodoh.</p>
         </div>
       </div>
       <div class="row justify-content-center">
@@ -79,7 +79,7 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-7 col-md-8 col-sm-8 text-center">
-          <a href="obat-page/kategoriObat/maag.html" class="btn button-body rounded-pill mt-2 me-1">OBAT MAAG</a>
+          <a href="kategori-obat.html" class="btn button-body rounded-pill mt-2 me-1">OBAT MAAG</a>
           <a href="obat-page/kategoriObat/suplemen.html" class="btn button-body rounded-pill mt-2 me-1">OBAT SUPLEMEN</a>
           <a href="obat-page/kategoriObat/Diare.html" class="btn button-body rounded-pill mt-2 me-1">OBAT DIARE</a>
           <a href="obat-page/kategoriObat/p3k.html" class="btn button-body rounded-pill mt-2 me-1">OBAT P3K</a>
@@ -94,9 +94,9 @@
               Kategori Lainnya
             </button>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Obat Kuat</a></li>
+              <li><a class="dropdown-item" href="#">Perlengkapan Bayi</a></li>
+              <li><a class="dropdown-item" href="#">Perawatan Tubuh</a></li>
             </ul>
           </div>
         </div>
@@ -133,12 +133,14 @@
     <div class="container">
       <div class="row text-center">
         <div class="col">
-          <h1 class="display-4 bolder-text">PRODUK TERLARIS</h1>
+          <div class="terlaris-hover">
+            <h1 class="display-4 bolder-text">PRODUK TERLARIS</h1>
+          </div>
         </div>
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-lg-4 col-md-6 col-sm-8">
-          <p class="desc-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem modi velit culpa necessitatibus facere sed?</p>
+          <p class="desc-title">Berikut merupakan produk obat yang laris manis alias laku keras, tidak seperti kalian yang ngga laku-laku.</p>
         </div>
       </div>  
       <div class="row justify-content-center">
@@ -147,10 +149,10 @@
             <div class="card-body">
               <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
               <h2 class="card-title mt-3">Panadol</h2>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
               <h2 class="card-price">12.000</h2>
             </div>
-            <a href="obat-page/HalamanDiare/Oralit.html" class="btn-buy justify-content-center align-items-center">Beli</a>
+            <a href="obat-detail.html" class="btn-buy justify-content-center align-items-center">Beli</a>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6">
@@ -158,18 +160,7 @@
             <div class="card-body">
               <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
               <h2 class="card-title mt-3">Panadol</h2>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <h2 class="card-price">12.000</h2>
-            </div>
-            <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="card align-items-center text-center mt-3">
-            <div class="card-body">
-              <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
-              <h2 class="card-title mt-3">Panadol</h2>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
               <h2 class="card-price">12.000</h2>
             </div>
             <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
@@ -180,7 +171,7 @@
             <div class="card-body">
               <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
               <h2 class="card-title mt-3">Panadol</h2>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
               <h2 class="card-price">12.000</h2>
             </div>
             <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
@@ -191,7 +182,7 @@
             <div class="card-body">
               <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
               <h2 class="card-title mt-3">Panadol</h2>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
               <h2 class="card-price">12.000</h2>
             </div>
             <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
@@ -202,7 +193,18 @@
             <div class="card-body">
               <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
               <h2 class="card-title mt-3">Panadol</h2>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
+              <h2 class="card-price">12.000</h2>
+            </div>
+            <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card align-items-center text-center mt-3">
+            <div class="card-body">
+              <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
+              <h2 class="card-title mt-3">Panadol</h2>
+              <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
               <h2 class="card-price">12.000</h2>
             </div>
             <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
@@ -215,12 +217,14 @@
     <div class="container">
       <div class="row text-center">
         <div class="col">
-          <h1 class="display-4 bolder-text">PROMO TERMANTAP</h1>
+          <div class="promo-hover">
+            <h1 class="display-4 bolder-text">PROMO TERMANTAP</h1>
+          </div>
         </div>
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-lg-4 col-md-6 col-sm-8">
-          <p class="desc-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem modi velit culpa necessitatibus facere sed?</p>
+          <p class="desc-title">Pengen belanja tapi duit pas-pasan kaya muka yang beli, tenang Ngobat menjamin ada diskon setiap harinya jadi bisa beli obat pusing untuk lihat harga yang bikin pusing</p>
         </div>
       </div>
       <div id="promoSlider" class="carousel slide" data-bs-ride="carousel">
@@ -237,7 +241,7 @@
                   <div class="card-body">
                     <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
                     <h2 class="card-title mt-3">Panadol</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
                     <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
                     <h2 class="card-price">12.000</h2>
                   </div>
@@ -249,7 +253,7 @@
                   <div class="card-body">
                     <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
                     <h2 class="card-title mt-3">Panadol</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
                     <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
                     <h2 class="card-price">12.000</h2>
                   </div>
@@ -261,7 +265,7 @@
                   <div class="card-body">
                     <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
                     <h2 class="card-title mt-3">Panadol</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
                     <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
                     <h2 class="card-price">12.000</h2>
                   </div>
@@ -273,59 +277,7 @@
                   <div class="card-body">
                     <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
                     <h2 class="card-title mt-3">Panadol</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
-                    <h2 class="card-price">12.000</h2>
-                  </div>
-                  <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row justify-content-center">
-              <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="card align-items-center text-center mt-3">
-                  <div class="card-body">
-                    <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
-                    <h2 class="card-title mt-3">Panadol</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
-                    <h2 class="card-price">12.000</h2>
-                  </div>
-                  <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="card align-items-center text-center mt-3">
-                  <div class="card-body">
-                    <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
-                    <h2 class="card-title mt-3">Panadol</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
-                    <h2 class="card-price">12.000</h2>
-                  </div>
-                  <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="card align-items-center text-center mt-3">
-                  <div class="card-body">
-                    <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
-                    <h2 class="card-title mt-3">Panadol</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
-                    <h2 class="card-price">12.000</h2>
-                  </div>
-                  <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="card align-items-center text-center mt-3">
-                  <div class="card-body">
-                    <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
-                    <h2 class="card-title mt-3">Panadol</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
                     <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
                     <h2 class="card-price">12.000</h2>
                   </div>
@@ -341,7 +293,7 @@
                   <div class="card-body">
                     <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
                     <h2 class="card-title mt-3">Panadol</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
                     <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
                     <h2 class="card-price">12.000</h2>
                   </div>
@@ -353,7 +305,7 @@
                   <div class="card-body">
                     <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
                     <h2 class="card-title mt-3">Panadol</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
                     <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
                     <h2 class="card-price">12.000</h2>
                   </div>
@@ -365,7 +317,7 @@
                   <div class="card-body">
                     <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
                     <h2 class="card-title mt-3">Panadol</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
                     <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
                     <h2 class="card-price">12.000</h2>
                   </div>
@@ -377,7 +329,59 @@
                   <div class="card-body">
                     <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
                     <h2 class="card-title mt-3">Panadol</h2>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
+                    <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
+                    <h2 class="card-price">12.000</h2>
+                  </div>
+                  <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card align-items-center text-center mt-3">
+                  <div class="card-body">
+                    <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
+                    <h2 class="card-title mt-3">Panadol</h2>
+                    <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
+                    <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
+                    <h2 class="card-price">12.000</h2>
+                  </div>
+                  <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card align-items-center text-center mt-3">
+                  <div class="card-body">
+                    <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
+                    <h2 class="card-title mt-3">Panadol</h2>
+                    <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
+                    <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
+                    <h2 class="card-price">12.000</h2>
+                  </div>
+                  <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card align-items-center text-center mt-3">
+                  <div class="card-body">
+                    <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
+                    <h2 class="card-title mt-3">Panadol</h2>
+                    <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
+                    <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
+                    <h2 class="card-price">12.000</h2>
+                  </div>
+                  <a href="" class="btn-buy justify-content-center align-items-center">Beli</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card align-items-center text-center mt-3">
+                  <div class="card-body">
+                    <img src="img/preview-obat/panadol.png" class="rounded" alt="" width="200">
+                    <h2 class="card-title mt-3">Panadol</h2>
+                    <p class="card-text">Obat pereda nyeri kepala dan mengatasi flu & batuk secara cepat.</p>
                     <p class="discount"><span class="ori-price">30.000</span> <span class="disc">-60%</span></p>
                     <h2 class="card-price">12.000</h2>
                   </div>
@@ -391,87 +395,85 @@
   </section>
   <section id="article">
     <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1 class="display-4 bolder-text title-hover">ARTIKEL SEHAT</h1>
-        </div>
-      </div>
+      <div class="article-hover">
+        <h1 class="display-4 bolder-text">ARTIKEL SEHAT</h1>
+      </div>  
       <div class="row justify-content-center">
         <div class="col-lg-3 col-md-4 col-sm-6">
           <div class="card article-card mt-3">
             <a href=""><img src="img/img-article.svg" class="card-img-top" alt="..."></a>
             <div class="article-desc">
-              <h2 class="article-title">Cara Menjaga Kesehatan Hati</h2>
-              <p class="article-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, explicabo?</p>
-              <p class="article-date">Posted : 21 April 2021 | Author : Ajeng</p>
-            </div>
-            <a href="" class="btn-buy justify-content-center align-items-center"> Yuk Baca</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="card article-card mt-3">
-            <a href=""><img src="img/img-article.svg" class="card-img-top" alt="..."></a>
-            <div class="article-desc">
-              <h2 class="article-title">Cara Menjaga Kesehatan Hati</h2>
-              <p class="article-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, explicabo?</p>
-              <p class="article-date">Posted : 21 April 2021 | Author : Ajeng</p>
-            </div>
-            <a href="" class="btn-buy justify-content-center align-items-center"> Yuk Baca</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="card article-card mt-3">
-            <a href=""><img src="img/img-article.svg" class="card-img-top" alt="..."></a>
-            <div class="article-desc">
-              <h2 class="article-title">Cara Menjaga Kesehatan Hati</h2>
-              <p class="article-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, explicabo?</p>
-              <p class="article-date">Posted : 21 April 2021 | Author : Ajeng</p>
-            </div>
-            <a href="" class="btn-buy justify-content-center align-items-center"> Yuk Baca</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="card article-card mt-3">
-            <a href=""><img src="img/img-article.svg" class="card-img-top" alt="..."></a>
-            <div class="article-desc">
-              <h2 class="article-title">Cara Menjaga Kesehatan Hati</h2>
-              <p class="article-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, explicabo?</p>
-              <p class="article-date">Posted : 21 April 2021 | Author : Ajeng</p>
-            </div>
-            <a href="" class="btn-buy justify-content-center align-items-center"> Yuk Baca</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="card article-card mt-3">
-            <a href=""><img src="img/img-article.svg" class="card-img-top" alt="..."></a>
-            <div class="article-desc">
-              <h2 class="article-title">Cara Menjaga Kesehatan Hati</h2>
-              <p class="article-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, explicabo?</p>
-              <p class="article-date">Posted : 21 April 2021 | Author : Ajeng</p>
-            </div>
-            <a href="" class="btn-buy justify-content-center align-items-center"> Yuk Baca</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="card article-card mt-3">
-            <a href=""><img src="img/img-article.svg" class="card-img-top" alt="..."></a>
-            <div class="article-desc">
-              <h2 class="article-title">Cara Menjaga Kesehatan Hati</h2>
-              <p class="article-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, explicabo?</p>
-              <p class="article-date">Posted : 21 April 2021 | Author : Ajeng</p>
-            </div>
-            <a href="" class="btn-buy justify-content-center align-items-center"> Yuk Baca</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-          <div class="card article-card mt-3">
-            <a href=""><img src="img/img-article.svg" class="card-img-top" alt="..."></a>
-            <div class="article-desc">
-              <h2 class="article-title">Cara Menjaga Kesehatan Hati</h2>
-              <p class="article-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, explicabo?</p>
+              <h2 class="article-title">Cara Menjaga Kesehatan</h2>
+              <p class="article-detail">Pada artikel ini tertera bagaimana kita menjaga kesehatan kita demi kelangsungan hidup & panjang umur.</p>
               <p class="article-date">Posted : 21 April 2021 | Author : Ajeng</p>
             </div>
             <a href="article.html" class="btn-buy justify-content-center align-items-center"> Yuk Baca</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card article-card mt-3">
+            <a href=""><img src="img/img-article.svg" class="card-img-top" alt="..."></a>
+            <div class="article-desc">
+              <h2 class="article-title">Cara Menjaga Kesehatan</h2>
+              <p class="article-detail">Pada artikel ini tertera bagaimana kita menjaga kesehatan kita demi kelangsungan hidup & panjang umur.</p>
+              <p class="article-date">Posted : 21 April 2021 | Author : Ajeng</p>
+            </div>
+            <a href="article.html" class="btn-buy justify-content-center align-items-center"> Yuk Baca</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card article-card mt-3">
+            <a href=""><img src="img/img-article.svg" class="card-img-top" alt="..."></a>
+            <div class="article-desc">
+              <h2 class="article-title">Cara Menjaga Kesehatan</h2>
+              <p class="article-detail">Pada artikel ini tertera bagaimana kita menjaga kesehatan kita demi kelangsungan hidup & panjang umur.</p>
+              <p class="article-date">Posted : 21 April 2021 | Author : Ajeng</p>
+            </div>
+            <a href="article.html" class="btn-buy justify-content-center align-items-center"> Yuk Baca</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card article-card mt-3">
+            <a href=""><img src="img/img-article.svg" class="card-img-top" alt="..."></a>
+            <div class="article-desc">
+              <h2 class="article-title">Cara Menjaga Kesehatan</h2>
+              <p class="article-detail">Pada artikel ini tertera bagaimana kita menjaga kesehatan kita demi kelangsungan hidup & panjang umur.</p>
+              <p class="article-date">Posted : 21 April 2021 | Author : Ajeng</p>
+            </div>
+            <a href="article.html" class="btn-buy justify-content-center align-items-center"> Yuk Baca</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card article-card mt-3">
+            <a href=""><img src="img/img-article.svg" class="card-img-top" alt="..."></a>
+            <div class="article-desc">
+              <h2 class="article-title">Cara Menjaga Kesehatan</h2>
+              <p class="article-detail">Pada artikel ini tertera bagaimana kita menjaga kesehatan kita demi kelangsungan hidup & panjang umur.</p>
+              <p class="article-date">Posted : 21 April 2021 | Author : Ajeng</p>
+            </div>
+            <a href="article.html" class="btn-buy justify-content-center align-items-center"> Yuk Baca</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card article-card mt-3">
+            <a href=""><img src="img/img-article.svg" class="card-img-top" alt="..."></a>
+            <div class="article-desc">
+              <h2 class="article-title">Cara Menjaga Kesehatan</h2>
+              <p class="article-detail">Pada artikel ini tertera bagaimana kita menjaga kesehatan kita demi kelangsungan hidup & panjang umur.</p>
+              <p class="article-date">Posted : 21 April 2021 | Author : Ajeng</p>
+            </div>
+            <a href="article.html" class="btn-buy justify-content-center align-items-center"> Yuk Baca</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card article-card mt-3">
+            <a href=""><img src="img/img-article.svg" class="card-img-top" alt="..."></a>
+            <div class="article-desc">
+              <h2 class="article-title">Cara Menjaga Kesehatan</h2>
+              <p class="article-detail">Pada artikel ini tertera bagaimana kita menjaga kesehatan kita demi kelangsungan hidup & panjang umur.</p>
+              <p class="article-date">Posted : 21 April 2021 | Author : Ajeng</p>
+            </div>
+            <a href="article.html" class="btn-buy justify-content-center align-items-center">Yuk Baca</a>
           </div>
         </div>
       </div>
@@ -494,4 +496,5 @@
 </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </html>
