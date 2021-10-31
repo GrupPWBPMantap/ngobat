@@ -10,6 +10,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.primary-blue {
+  color: var(--primary-blue);
+}
 
 /* Navbar */
 
@@ -579,6 +582,31 @@ footer{
   color: white;
 }
 
+/* Cart page */
+#checkout .container{
+  padding-top: 6rem;
+}
+
+#checkout .title-checkout {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+#checkout .container .card a{
+  text-decoration: none;
+  color: #212529;
+}
+
+#checkout .card .image-card {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
 /* Article Page*/
 
 #article-page {
@@ -671,6 +699,8 @@ footer{
         padding-bottom: 5px;
         margin-bottom: -8px;
     } 
+
+
     #jumbotron {
        margin-top: 3.6rem;
     }
