@@ -14,6 +14,18 @@ body {
   color: var(--primary-blue);
 }
 
+.borad-20 {
+  border-radius: 20px;
+}
+
+.borad-15 {
+  border-radius: 15px;
+}
+
+.fs-icon {
+  font-size: 5rem;
+}
+
 /* Navbar */
 
 .navbar {
@@ -299,6 +311,21 @@ body {
 }
 
 
+/* Tentang */
+
+#tentang {
+  margin-top: 4rem;
+}
+
+#tentang .card hr:not([size]){
+  height: 2.5px;
+  color: var(--primary-blue);
+}
+
+#tentang .card hr{
+  opacity: 1;
+}
+
 /* Article */
 #article {
   margin-top: 3rem;
@@ -354,12 +381,19 @@ body {
 	margin-top: 40px;
 }
 footer{
-    background: var(--primary-blue);
+    background: linear-gradient(to bottom, #0051ff, #0047dd, #003cbd, #00329d, #00287e);
     height: auto;
     width: 100%;
     padding-top: 20px;
     color: #fff;
 }
+
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
 .footer-content{
     display: flex;
     align-items: center;
@@ -404,7 +438,8 @@ footer{
 .footer-bottom{
     background: var(--hover-blue);
     width: 100%;
-    padding: 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
     text-align: center;
 }
 .footer-bottom p{
